@@ -1,0 +1,194 @@
+
+body{
+    background-image:(url(gucii.jpg));
+    font-family:'Times New Roman', Times, serif
+}
+
+nav{
+    padding: 30px;
+    background-color:rgb(4, 71, 23);
+    display: flex;
+    justify-content: center;
+}
+
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+    color: aliceblue;
+    margin: 0 15px;
+}
+
+nav a:hover{
+    background-color: black;
+}
+
+#head{
+    background-image: url(jpg.webp) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-top: 40px;
+    background-position: center;
+    height: 500px;
+}
+
+#head h1 {
+    color: #fff;
+    text-align: left;
+    font-style: italic;
+}
+
+#about{
+    margin: 80px 0;
+}
+
+.sale h1{
+    text-align: center;
+    border-radius: 8px;
+    background-color: rgb(4, 71, 23);
+    color: #fff;
+    margin: 40px 100px;
+}
+
+#shop {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.products{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+   justify-content: center;
+}
+
+.products-items{
+    box-shadow: 0 4px 10px;
+    width: 300px;
+    padding: 15px;
+    background-color: rgba(22, 79, 38 0.3);
+    border-color: 5px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+h3{
+    margin-top: 50px;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.products-items p{
+    border: 1px;
+    background-color: rgb(4, 71, 23);
+    border-radius: 20px;
+    padding: 10px;
+    color:#fff
+}
+
+.comment{
+    background-color: #75ac93;
+    border-radius: 50%;
+    padding: 40px;
+    text-align: center;
+    font-style: bold;
+    box-shadow: 0 4PX 10PX;
+
+}
+.comment h2{
+    margin-bottom: 20px;
+    color:rgb(4, 71, 23);
+}
+
+.comment ul{
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.comment li{
+    margin: 10px 0;
+    font-style: italic;
+    color:rgb(4, 71, 23)
+}
+
+.comment textarea{
+    width: 60px;
+    height: 50px;
+    width: 200px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background:#1f3d30d0;
+    margin-bottom: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.comment button{
+    padding: 10px 20px;
+    background: rgb(4, 71, 23);
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+    justify-content: center;
+}
+
+.comment button :hover{
+    background: rgb(169, 8, 8);
+}
+
+#contact{
+    border:1px solid #75ac93;
+    border-color: #75ac93;
+    width: 30%;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 15px;
+    background-color:rgba(4, 71, 23, 0.463);
+    box-shadow: 0 4PX 10PX;
+}
+
+.follow{
+    border:1px solid #75ac93;
+    border-color: #75ac93;
+    width: 30%;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 15px;
+    background-color:rgba(4, 71, 23, 0.463);
+    box-shadow: 0 4PX 10PX;
+    
+}
+.follow h3 {
+    margin-bottom: 40px;
+}
+.follow ul{
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+    margin-right: 30PX;
+    display: flex;
+    justify-content:space-between;
+    padding :0 20px
+    /* margin: 0 10px; */
+
+}
+
+/* .follow img{
+    color: black;
+} */
+
+footer{
+    padding: 20px 10px;
+    background-color:rgb(4, 71, 23);
+    color: #fff;
+    margin-top: 50px;
+    text-align: center;
+}
+
+
